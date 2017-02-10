@@ -12,3 +12,14 @@ class Player (val id: String, val debutPot: Int, val finPot: Int, var posCur: In
   
 
 }
+
+
+object Player {
+  
+ 
+  def apply(id:String)={
+    new Player(id,0,5,0)
+  }
+  
+  
+}

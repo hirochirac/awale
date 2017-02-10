@@ -27,25 +27,25 @@ object TestAwale extends App {
    for (e <- a.monkabe) yield print(e)
    println
    
-   /*a.platoGain(new Player("toto",0,5,0))
+   a.recolter(new Player("toto",0,5,0))
    println
    
    a.monkabe(4) = 2
    
-   a.platoGain(new Player("toto",0,5,0))
+   a.recolter(new Player("toto",0,5,0))
    println
    
    a.monkabe(3) = 3
    a.monkabe(4) = 2
    
-   a.platoGain(new Player("toto",0,5,0))
+   a.recolter(new Player("toto",0,5,0))
    println
    
    a.monkabe(1) = 2
    a.monkabe(3) = 3
    a.monkabe(4) = 2
    
-   a.platoGain(new Player("toto",0,5,0))
+   a.recolter(new Player("toto",0,5,0))
    println
    
    a.monkabe(1) = 2
@@ -53,8 +53,8 @@ object TestAwale extends App {
    a.monkabe(3) = 3
    a.monkabe(4) = 2
    
-   a.platoGain(new Player("toto",0,5,0))
-   println*/
+   a.recolter(new Player("toto",0,5,0))
+   println
    
    a.monkabe(1) = 2
    a.monkabe(2) = 2
@@ -62,7 +62,7 @@ object TestAwale extends App {
    a.monkabe(4) = 2
    a.monkabe(5) = 2
    
-   //a.platoGain(new Player("toto",0,5,0))
+   a.recolter(new Player("toto",0,5,0))
    println
    
   }
